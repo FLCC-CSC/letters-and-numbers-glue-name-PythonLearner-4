@@ -1,8 +1,8 @@
 # FILE NAME - glue_name.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Michael Orcutt
+# DATE: 2/14/2025
+# BRIEF DESCRIPTION: A program to repeat a name entry 
 
 
 
@@ -18,14 +18,13 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
     
     
+def glue_name():
+    firstname = input( "\nEnter your first name: ")
+    lastname = input( "Enter your last name: ")
+
+    print( f'Hi, {firstname} {lastname}')
     
-    
-    
-    
-    
-    
-    
-    
+glue_name()
 ########### END YER CODE ABOVE THIS LINE ###########
 
 
@@ -77,7 +76,7 @@ Hi, Lisa Simpson, esquire
    your response to Python. It might be a lesson in time management, a lesson
    using CodeGrade, or something else.
 
-
+I learned how to define a function in Python. I am not sure if I like it uses indents instead of curly brackets. I think that it will take a while to get used to reading functions like that.
 
 
 
