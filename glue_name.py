@@ -19,8 +19,8 @@
     
     
 def glue_name():
-    lastname = input( "Enter your last name: ")
-    firstname = input( "\nEnter your first name: ")
+    lastname = input( "Enter last name: ")
+    firstname = input( "Enter first name: ")
 
     print( f'Hi, {firstname} {lastname}')
     
